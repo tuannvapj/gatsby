@@ -5,7 +5,7 @@ import '../components/main.css';
 const IndexPage = () => {
   return (
     <main>
-      <title>Home Page</title>
+      <title>TUANNVA Travel | Testing</title>
     </main>
   )
 }
