@@ -11,6 +11,7 @@ module.exports = {
           'lato:100,300,400'
         ]
       }
-    }
+    },
+    `gatsby-plugin-styled-components`
   ],
 };
