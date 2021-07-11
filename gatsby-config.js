@@ -4,6 +4,8 @@ module.exports = {
     title: "gatsby-sample",
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
@@ -11,7 +13,6 @@ module.exports = {
           'lato:100,300,400'
         ]
       }
-    },
-    `gatsby-plugin-styled-components`
+    }
   ],
 };
