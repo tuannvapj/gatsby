@@ -13,6 +13,12 @@ module.exports = {
           'lato:100,300,400'
         ]
       }
+    },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: `tuan-tests`
+      }
     }
   ],
 };
